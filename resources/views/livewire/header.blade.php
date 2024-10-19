@@ -1,8 +1,8 @@
 <header 
+    class="w-full mb-4 px-28 bg-black sticky top-0 z-10 transition-all duration-100 shadow-[#F2BB06] rounded-b-3xl"
     x-data="{ scrolled: false}"
-    x-init="window.addEventListener('scroll', () => scrolled = windows.scrollY > 0)"
-    :class="{ ' border-b-1 border-[#F2BB06]': scrolled }"
-    class="w-full mb-4 px-28 bg-black sticky top-0 z-10"
+    x-on:scroll.window="scrolled = (window.pageYOffset > 0) ? true : false"
+    :class="{ 'shadow-[0_4px_5px_-4px]': scrolled }"
 >
     <nav class="grid grid-cols-[1fr_70%_1fr] py-4">
         <a href="{{ Route('home') }}">

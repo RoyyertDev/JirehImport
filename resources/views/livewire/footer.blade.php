@@ -27,5 +27,5 @@
             <iframe class="rounded-lg" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15704.592568968266!2d-67.6039471!3d10.2496337!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e803d0ecb35340d%3A0x2493a677baccaa8f!2sJireh%20Import!5e0!3m2!1ses-419!2sve!4v1729198078844!5m2!1ses-419!2sve" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </article>
     </section>
-    <section class="w-5/6 mx-auto border-t-2 border-[#F2BB06] mt-2 text-zinc-400">Copyright © 2024 <span class="font-semibold">JirehImport.</span> Todos los derechos reservados.</section>
+    <section class="w-5/6 mx-auto border-t-2 border-[#F2BB06] mt-2 text-zinc-400">Copyright © 2024 <span class="font-semibold text-[#F2BB06]">JirehImport.</span> Todos los derechos reservados.</section>
 </footer>

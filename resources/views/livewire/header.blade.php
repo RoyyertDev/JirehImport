@@ -9,8 +9,8 @@
             <img class="m-auto" src="./assets/img/logo.png" width="80px" height="40px" alt="JirehImport logo">
         </a>
         <div class="flex justify-center items-center gap-12">
-            <x-link-nav :active="request()->routeIs('home')" href="">Inicio</x-link-nav>
-            <x-link-nav :active="request()->routeIs('')" href="">Quienes somos</x-link-nav>
+            <x-link-nav :active="request()->routeIs('home')" href=" {{ route('home') }}">Inicio</x-link-nav>
+            <x-link-nav :active="request()->routeIs('about')" href=" {{ route('about') }}">Quienes somos</x-link-nav>
             <x-link-nav :active="request()->routeIs('')" href="">Productos</x-link-nav>
             <x-link-nav :active="request()->routeIs('')" href="">Carrito</x-link-nav>
         </div>

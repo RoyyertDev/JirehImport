@@ -32,11 +32,11 @@
             </button>
             <div class="flex flex-row absolute w-full justify-center items-center gap-3 bottom-0 mx-auto mb-3">
                 <button type="button" id="sliderView0"
-                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
+                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent hover:scale-125 transition-all duration-300"></button>
                 <button type="button" id="sliderView1"
-                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
+                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent hover:scale-125 transition-all duration-300"></button>
                 <button type="button" id="sliderView2"
-                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
+                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent hover:scale-125 transition-all duration-300"></button>
             </div>
         </figure>
     </section>

@@ -18,21 +18,27 @@
     </section>
     <section class="sm:hidden">
         <figure class="relative">
-            <img class="brightness-90 hover:brightness-125 hover:scale-[1.02] transition-all duration-300 object-fill w-full h-full rounded-lg shadow-[0_1px_8px_-5px_#F2BB06] hover:shadow-[0_4px_8px_-5px_#F2BB06]" id="imageSlider" src="" alt="">
-            <button type="button" class="absolute top-1/2 left-0 transform -translate-y-1/2 hover:scale-150 transition-all duration-300" id="buttonLeft">
+            <img class="brightness-90 hover:brightness-125 hover:scale-[1.02] transition-all duration-300 object-fill w-full h-full rounded-lg shadow-[0_1px_8px_-5px_#F2BB06] hover:shadow-[0_4px_8px_-5px_#F2BB06]"
+                id="imageSlider" src="" alt="">
+            <button type="button"
+                class="absolute top-1/2 left-0 transform -translate-y-1/2 hover:scale-150 transition-all duration-300"
+                id="buttonLeft">
                 <img src="./assets/img/es-menor-que.png" alt="anterior">
             </button>
-            <button type="button" class="absolute top-1/2 right-0 transform -translate-y-1/2 hover:scale-150 transition-all duration-300" id="buttonRight">
+            <button type="button"
+                class="absolute top-1/2 right-0 transform -translate-y-1/2 hover:scale-150 transition-all duration-300"
+                id="buttonRight">
                 <img src="./assets/img/es-mayor-que.png" alt="siguiente">
             </button>
             <div class="flex flex-row absolute w-full justify-center items-center gap-3 bottom-0 mx-auto mb-3">
-                <button type="button" id="sliderView0" class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
-                <button type="button" id="sliderView1" class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
-                <button type="button" id="sliderView2" class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
+                <button type="button" id="sliderView0"
+                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
+                <button type="button" id="sliderView1"
+                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
+                <button type="button" id="sliderView2"
+                    class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
             </div>
         </figure>
-        <!-- Agrega paginación y navegación si es necesario -->
-        {{-- <div class=""></div> --}}
     </section>
 </header>
 <script>

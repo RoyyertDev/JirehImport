@@ -1,5 +1,6 @@
 <footer class="w-full py-10 bg-[#1d1f20] flex flex-col justify-center items-center gap-4">
-    <section class="w-5/6 mx-auto grid grid-cols-1 grid-rows-4 sm:grid-cols-[1fr_1fr_1fr_auto] justify-center gap-4">
+    <section
+        class="w-5/6 mx-auto flex flex-col sm:grid sm:grid-rows-2 sm:grid-cols-2 lg:grid-rows-1 lg:grid-cols-[1fr_1fr_1fr_auto] lg:justify-center gap-4">
         <article>
             <img src="./assets/img/logo.png" width="100px" height="60px" alt="JirehImport logo">
             <p class="text-zinc-400">

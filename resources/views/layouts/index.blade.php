@@ -19,9 +19,13 @@
     <!-- Styles -->
     @livewireStyles
     <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.14.3/dist/cdn.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body class="text-white bg-black">
+<body class="text-white bg-black font-sans">
     @livewire('header')
     {{ $slot }}
     @livewire('footer')

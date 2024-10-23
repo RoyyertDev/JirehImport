@@ -31,8 +31,6 @@
                 <button type="button" id="sliderView2" class="w-4 h-4 border border-[#F2BB06] rounded-full bg-transparent"></button>
             </div>
         </figure>
-        <!-- Agrega paginación y navegación si es necesario -->
-        {{-- <div class=""></div> --}}
     </section>
 </header>
 <script>
@@ -67,17 +65,17 @@
         currentSlide = 0;
         clearSlider();
         sliderImage();
-    })
+    });
     sliderView1.addEventListener('click', () => {
         currentSlide = 1;
         clearSlider();
         sliderImage();
-    })
+    });
     sliderView2.addEventListener('click', () => {
         currentSlide = 2;
         clearSlider();
         sliderImage();
-    })
+    });
     function clearSlider () {
         for (let i = 0; i < sliderViews.length; i++) {
             document.getElementById(sliderViews[i]).style.backgroundColor = 'transparent';
@@ -106,5 +104,8 @@
                 document.getElementById(sliderViews[currentSlide]).style.backgroundColor = '#F2BB06';
             break;
         };    
-    } 
+    }
+    setInterval(() => {
+        sliderRight.click();
+    }, 4000);
 </script>

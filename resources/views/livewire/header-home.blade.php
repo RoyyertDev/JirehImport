@@ -114,6 +114,6 @@
         };    
     }
     setInterval(() => {
-        sliderRight.click();
+        sliderRight.click(); 
     }, 4000);
 </script>

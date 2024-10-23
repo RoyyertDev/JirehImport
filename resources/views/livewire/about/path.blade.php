@@ -1,5 +1,5 @@
 <section class="md:grid grid-cols-2 gap-10 py-10 w-11/12 mx-auto">
-    <figure class="hidden md:blockm-auto w-44">
+    <figure class="hidden md:block m-auto w-44">
         <img src="./assets/img/about/trayectoria.png" alt="trayectoria">
     </figure>
     <article>

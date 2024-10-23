@@ -14,7 +14,7 @@
         </div>
         <div class="flex flex-col sm:flex-row justify-center items-center gap-3 md:gap-6 lg:gap-12">
             <x-link-nav :active="request()->routeIs('home')" href="{{ route('home') }}">Inicio</x-link-nav>
-            <x-link-nav :active="request()->routeIs('about')" href="{{ route('about') }}">Quienes somos</x-link-nav>
+            <x-link-nav :active="request()->routeIs('about')" href="{{ route('about') }}">Nosotros</x-link-nav>
             <x-link-nav :active="request()->routeIs('')" href="">Productos</x-link-nav>
             <x-link-nav :active="request()->routeIs('')" href="">Carrito</x-link-nav>
         </div>
@@ -23,9 +23,9 @@
             @auth
             <x-link-nav :active="request()->routeIs('')" href="">Perfil</x-link-nav>
             @endauth
-            <x-link-nav :active="request()->routeIs('')" href="">Iniciar sesión</x-link-nav>
+            <x-link-nav :active="request()->routeIs('')" href="">Acceder</x-link-nav>
             {{-- @if (Route::has('register'))
-            <x-link-nav :active="request()->routeIs('')" href="">Registrarse</x-link-nav>
+            <x-link-nav :active="request()->routeIs('')" href="">Registrate</x-link-nav>
             @endif --}}
             @endif
         </div>

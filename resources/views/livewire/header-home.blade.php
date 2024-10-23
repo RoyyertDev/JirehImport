@@ -31,11 +31,13 @@
         <div class="swiper-button-next"></div>
         <div class="swiper-button-prev"></div>
     </div>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
 </header>
 <!-- Carrusel para pantallas pequeñas -->
 <script type="module">
-    import Swiper from 'https://unpkg.com/swiper/swiper-bundle.esm.browser.min.js';
+    // import Swiper JS
+        import Swiper from './swiper';
+        // import Swiper styles
+        import './swiper/css';
 
     document.addEventListener('DOMContentLoaded', () => {
         const swiper = new Swiper('.swiper-container', {

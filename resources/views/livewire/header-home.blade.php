@@ -112,13 +112,8 @@
                 document.getElementById(sliderViews[currentSlide]).style.backgroundColor = '#F2BB06';
             break;
         };    
-<<<<<<< HEAD
     }
     setInterval(() => {
         sliderRight.click();
     }, 4000);
 </script>
-=======
-    } 
-</script>
->>>>>>> d6bf569a9fa5f44ca83184446bd2131686cf2d78
